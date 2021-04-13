@@ -19,31 +19,136 @@ p {color: #FF7496; text-align: center}
   margin-right: auto;
   width: 50%;
 }
-body {
- display:table;
- }
-
-        .my-block {
-            text-align: center;
-            display: table-cell;
-            vertical-align: middle;
-        }
 html,body {
  height:100%;
- margin:0;
- padding:0;
  width:100%;
+ margin: 0 auto
 }
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+.column {
+  float: left;
+  padding: 0px;
+}
+.row {
+    width: 640px; /* Can be in percentage also. */
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+}
+.g {
+width: 297px;
+height: 600px;
+background: url("img/gart/g.png") no-repeat;
+padding: 0px
+}
+.g:hover {
+background: url("img/gart/g.gif") no-repeat;
+}
+.a {
+width: 166px;
+height: 600px;
+background: url("img/gart/a.png") no-repeat;
+padding: 0px
+}
+.a:hover {
+background: url("img/gart/a.gif") no-repeat;
+}
+.r {
+width: 113px;
+height: 600px;
+background: url("img/gart/r.png") no-repeat;
+padding: 0px
+}
+.r:hover {
+background: url("img/gart/r.gif") no-repeat;
+}
+.t {
+width: 186px;
+height: 600px;
+background: url("img/gart/t.png") no-repeat;
+padding: 0px
+}
+.t:hover {
+background: url("img/gart/t.gif") no-repeat;
+}
+.w {
+width: 279px;
+height: 600px;
+background: url("img/world/w.png") no-repeat;
+padding: 0px
+}
+.w:hover {
+background: url("img/world/w.gif") no-repeat;
+}
+.o {
+width: 86px;
+height: 600px;
+background: url("img/world/o.png") no-repeat;
+padding: 0px
+}
+.o:hover {
+background: url("img/world/o.gif") no-repeat;
+}
+.r2 {
+width: 96px;
+height: 600px;
+background: url("img/world/r.png") no-repeat;
+padding: 0px
+}
+.r2:hover {
+background: url("img/world/r.gif") no-repeat;
+}
+.l {
+width: 72px;
+height: 600px;
+background: url("img/world/l.png") no-repeat;
+padding: 0px
+}
+.l:hover {
+background: url("img/world/l.gif") no-repeat;
+}
+.d {
+width: 306px;
+height: 600px;
+background: url("img/world/d.png") no-repeat;
+padding: 0px
+}
+.d:hover {
+background: url("img/world/d.gif") no-repeat;
+}
 </style>
  <head>
     <title>gart.world</title>
     <link rel="icon" type="image/png" href="img/icon.png">
 </head>
 <body>
- 
-<div class="my-block">
-<img src="img/gart.png">
-<img src="img/world.png">
+  <div id="row">
+    <div class="column">
+        <div class="g"></div>
+    </div>
+    <div class="column">
+        <div class="a"></div>
+    </div>
+    <div class="column">
+        <div class="r"></div>
+    </div>
+    <div class="column">
+        <div class="t"></div>
+    </div>
+    <div class="column">
+        <div class="w"></div>
+    </div>
+    <div class="column">
+        <div class="o"></div>
+    </div>
+    <div class="column">
+        <div class="r2"></div>
+    </div>
+    <div class="column">
+        <div class="l"></div>
+    </div>
+    <div class="column">
+        <div class="d"></div>
+    </div>
 </div>
 </body></html>
