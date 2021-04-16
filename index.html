@@ -12,35 +12,28 @@ p {color: #FF7496; text-align: center}
     image-rendering: optimize-contrast; 
     -ms-interpolation-mode: nearest-neighbor;
  }
-.center {
-  display: block;
-  margin-top: auto;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
 html,body {
- height:100%;
- width:100%;
- margin-left: 5%;
- margin-right: 5%;
+ height:99%;
+ width:99%;
 }
 .column {
-  float: left;
-  padding: 0px;
+  margin: 1px;
+  display: inline-block;
 }
-.row {
-    width: 640px; /* Can be in percentage also. */
-    height: auto;
-    margin: 0 auto;
-    padding: 10px;
-    position: relative;
+#row {
+  width: 90%; /* Can be in percentage also. */
+  height: auto;
+  text-align: center;
+}
+#rowIntermediary {
+  margin: auto;
+  height: auto;
 }
 .g {
 width: 297px;
 height: 600px;
 background: url("img/gart/g.png") no-repeat;
-padding: 0px
+padding: 0px;
 }
 .g:hover {
 background: url("img/gart/g.gif") no-repeat;
@@ -49,7 +42,7 @@ background: url("img/gart/g.gif") no-repeat;
 width: 166px;
 height: 600px;
 background: url("img/gart/a.png") no-repeat;
-padding: 0px
+padding: 0px;
 }
 .a:hover {
 background: url("img/gart/a.gif") no-repeat;
@@ -58,7 +51,7 @@ background: url("img/gart/a.gif") no-repeat;
 width: 113px;
 height: 600px;
 background: url("img/gart/r.png") no-repeat;
-padding: 0px
+padding: 0px;
 }
 .r:hover {
 background: url("img/gart/r.gif") no-repeat;
@@ -67,7 +60,7 @@ background: url("img/gart/r.gif") no-repeat;
 width: 186px;
 height: 600px;
 background: url("img/gart/t.png") no-repeat;
-padding: 0px
+padding: 0px;
 }
 .t:hover {
 background: url("img/gart/t.gif") no-repeat;
@@ -76,7 +69,7 @@ background: url("img/gart/t.gif") no-repeat;
 width: 279px;
 height: 600px;
 background: url("img/world/w.png") no-repeat;
-padding: 0px
+padding: 0px;
 }
 .w:hover {
 background: url("img/world/w.gif") no-repeat;
@@ -85,7 +78,7 @@ background: url("img/world/w.gif") no-repeat;
 width: 86px;
 height: 600px;
 background: url("img/world/o.png") no-repeat;
-padding: 0px
+padding: 0px;
 }
 .o:hover {
 background: url("img/world/o.gif") no-repeat;
@@ -94,7 +87,7 @@ background: url("img/world/o.gif") no-repeat;
 width: 96px;
 height: 600px;
 background: url("img/world/r.png") no-repeat;
-padding: 0px
+padding: 0px;
 }
 .r2:hover {
 background: url("img/world/r.gif") no-repeat;
@@ -103,54 +96,57 @@ background: url("img/world/r.gif") no-repeat;
 width: 72px;
 height: 600px;
 background: url("img/world/l.png") no-repeat;
-padding: 0px
+padding: 0px;
 }
 .l:hover {
 background: url("img/world/l.gif") no-repeat;
 }
 .d {
-width: 306px;
+width: 166px;
 height: 600px;
 background: url("img/world/d.png") no-repeat;
-padding: 0px
+padding: 0px;
 }
 .d:hover {
 background: url("img/world/d.gif") no-repeat;
 }
 </style>
- <head>
+
+<head>
     <title>gart.world</title>
     <link rel="icon" type="image/png" href="img/icon.png">
 </head>
 <body>
- if you know how to center this i will paypal you 5 dollars dm me on twitter @gartonline
   <div id="row">
-    <div class="column">
-        <div class="g"></div>
-    </div>
-    <div class="column">
-        <div class="a"></div>
-    </div>
-    <div class="column">
-        <div class="r"></div>
-    </div>
-    <div class="column">
-        <div class="t"></div>
-    </div>
-    <div class="column">
-        <div class="w"></div>
-    </div>
-    <div class="column">
-        <div class="o"></div>
-    </div>
-    <div class="column">
-        <div class="r2"></div>
-    </div>
-    <div class="column">
-        <div class="l"></div>
-    </div>
-    <div class="column">
-        <div class="d"></div>
+    <div id="rowIntermediary">
+      <div class="column">
+          <div class="g"></div>
+      </div>
+      <div class="column">
+          <div class="a"></div>
+      </div>
+      <div class="column">
+          <div class="r"></div>
+      </div>
+      <div class="column">
+          <div class="t"></div>
+      </div>
+      <div class="column">
+          <div class="w"></div>
+      </div>
+      <div class="column">
+          <div class="o"></div>
+      </div>
+      <div class="column">
+          <div class="r2"></div>
+      </div>
+      <div class="column">
+          <div class="l"></div>
+      </div>
+      <div class="column">
+          <div class="d"></div>
+      </div>
     </div>
 </div>
-</body></html>
+</body>
+</html>
